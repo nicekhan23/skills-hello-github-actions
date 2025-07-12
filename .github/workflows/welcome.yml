@@ -1,0 +1,6 @@
+name: This is my first GitHub Actions Workflow.
+on:
+  pull_request:
+    types: [opened]
+permissions:
+  pull-requests: write
